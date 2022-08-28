@@ -1,0 +1,84 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: helvetica;}
+
+/* Cabeçalho */
+
+header{
+    background-color: rgb(74, 156, 42);
+    color: white;
+    padding: 15px;
+    text-align: center;}
+
+/* Grid de produtos */
+
+.container {
+ background-color: #eee;
+ min-height: 86vh;
+ padding: 40px;}
+
+.products-container{
+    max-width: 1200px;
+    margin: 0 auto;}
+
+.card{
+    width: 31%;
+    display: inline-block;
+    margin:1% 1%;
+    padding: 15px;}
+
+.product-image{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;}
+
+#img-1{background-image: url(../css/img/produto1.jpg);}
+
+#img-2{background-image: url(../css/img/produto2.jpg);}
+
+#img-3{background-image: url(../css/img/produto3.jpg);}
+
+#img-4{background-image: url(../css/img/produto4.jpg);}
+
+#img-5{background-image: url(../css/img/produto5.jpg);}
+
+#img-6{background-image: url(../css/img/produto6.jpg);}
+
+h3{
+    margin-bottom: 10px;
+    color: black;
+    font-size: 24px;
+}
+
+.card p {
+    margin-bottom: 10px;   
+}
+
+.bnt{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(74, 156, 42);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.bnt:hover{
+    background-color: rgb(50, 112, 25);
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(74, 156, 42);
+    color: white;
+    padding: 15px;
+    text-align: center;}
